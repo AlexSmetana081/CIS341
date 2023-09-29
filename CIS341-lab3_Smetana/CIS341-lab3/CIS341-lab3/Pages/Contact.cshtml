@@ -1,0 +1,40 @@
+﻿@page
+@model CIS341_lab3.Pages.ContactModel
+@{
+    ViewData["Title"] = "Contact form";
+}
+
+<h1>Contact Us</h1>
+
+<!--
+    Taken from example on canvas and modify
+-->
+
+<div>
+
+    <form asp-action="Contact">
+
+        <!-- Name Form -->
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label"></label>
+            <input placeholder="@ContactModel.NamePlaceholder" asp-for="Name" class="form-control" />
+        </div>
+
+        <!-- Email Form -->
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label"></label>
+            <input placeholder="@ContactModel.EmailPlaceholder" asp-for="Email" class="form-control" />
+        </div>
+
+        <!-- Messsage Form -->
+        <div class="mb-3">
+            <label asp-for="Message" class="form-label"></label>
+            <input placeholder="@ContactModel.MessagePlaceholder" asp-for="Message" class="form-control" />
+        </div>
+
+        <div><input class="btn btn-primary" type="submit" value="Submit"></div>
+
+
+
+    </form>
+</div>
