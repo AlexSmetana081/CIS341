@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asmet\\Downloads\\CIS341-lab3HOME111\\CIS341-lab3HOME\\CIS341-lab3\\CIS341-lab3\\CIS341-lab3.csproj": {}
+    "C:\\Users\\asmet\\OneDrive\\Desktop\\Github\\CIS341\\CIS341-lab3_Smetana\\CIS341-lab3\\CIS341-lab3\\CIS341-lab3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asmet\\Downloads\\CIS341-lab3HOME111\\CIS341-lab3HOME\\CIS341-lab3\\CIS341-lab3\\CIS341-lab3.csproj": {
+    "C:\\Users\\asmet\\OneDrive\\Desktop\\Github\\CIS341\\CIS341-lab3_Smetana\\CIS341-lab3\\CIS341-lab3\\CIS341-lab3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asmet\\Downloads\\CIS341-lab3HOME111\\CIS341-lab3HOME\\CIS341-lab3\\CIS341-lab3\\CIS341-lab3.csproj",
+        "projectUniqueName": "C:\\Users\\asmet\\OneDrive\\Desktop\\Github\\CIS341\\CIS341-lab3_Smetana\\CIS341-lab3\\CIS341-lab3\\CIS341-lab3.csproj",
         "projectName": "CIS341-lab3",
-        "projectPath": "C:\\Users\\asmet\\Downloads\\CIS341-lab3HOME111\\CIS341-lab3HOME\\CIS341-lab3\\CIS341-lab3\\CIS341-lab3.csproj",
+        "projectPath": "C:\\Users\\asmet\\OneDrive\\Desktop\\Github\\CIS341\\CIS341-lab3_Smetana\\CIS341-lab3\\CIS341-lab3\\CIS341-lab3.csproj",
         "packagesPath": "C:\\Users\\asmet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asmet\\Downloads\\CIS341-lab3HOME111\\CIS341-lab3HOME\\CIS341-lab3\\CIS341-lab3\\obj\\",
+        "outputPath": "C:\\Users\\asmet\\OneDrive\\Desktop\\Github\\CIS341\\CIS341-lab3_Smetana\\CIS341-lab3\\CIS341-lab3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
