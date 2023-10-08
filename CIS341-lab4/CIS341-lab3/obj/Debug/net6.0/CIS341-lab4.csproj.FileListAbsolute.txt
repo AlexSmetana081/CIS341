@@ -1,0 +1,62 @@
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\bin\Debug\net6.0\appsettings.json
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\bin\Debug\net6.0\CIS341-lab4.staticwebassets.runtime.json
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\bin\Debug\net6.0\CIS341-lab4.exe
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\bin\Debug\net6.0\CIS341-lab4.deps.json
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\bin\Debug\net6.0\CIS341-lab4.runtimeconfig.json
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\bin\Debug\net6.0\CIS341-lab4.dll
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\bin\Debug\net6.0\CIS341-lab4.pdb
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.csproj.AssemblyReference.cache
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.AssemblyInfoInputs.cache
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.AssemblyInfo.cs
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.csproj.CoreCompileInputs.cache
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.RazorAssemblyInfo.cache
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.RazorAssemblyInfo.cs
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\staticwebassets\msbuild.CIS341-lab4.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\staticwebassets\msbuild.build.CIS341-lab4.props
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CIS341-lab4.props
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CIS341-lab4.props
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\scopedcss\bundle\CIS341-lab4.styles.css
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\scopedcss\projectbundle\CIS341-lab4.bundle.scp.css
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.dll
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\refint\CIS341-lab4.dll
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.pdb
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.genruntimeconfig.cache
+C:\Users\asmet\Downloads\Lab04 (1)\Lab04\CIS341-lab3\CIS341-lab3\obj\Debug\net6.0\ref\CIS341-lab4.dll
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\bin\Debug\net6.0\appsettings.json
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\bin\Debug\net6.0\CIS341-lab4.staticwebassets.runtime.json
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\bin\Debug\net6.0\CIS341-lab4.exe
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\bin\Debug\net6.0\CIS341-lab4.deps.json
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\bin\Debug\net6.0\CIS341-lab4.runtimeconfig.json
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\bin\Debug\net6.0\CIS341-lab4.dll
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\bin\Debug\net6.0\CIS341-lab4.pdb
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.csproj.AssemblyReference.cache
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.AssemblyInfoInputs.cache
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.AssemblyInfo.cs
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.csproj.CoreCompileInputs.cache
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.RazorAssemblyInfo.cache
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.RazorAssemblyInfo.cs
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\staticwebassets\msbuild.CIS341-lab4.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\staticwebassets\msbuild.build.CIS341-lab4.props
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CIS341-lab4.props
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CIS341-lab4.props
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\scopedcss\bundle\CIS341-lab4.styles.css
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\scopedcss\projectbundle\CIS341-lab4.bundle.scp.css
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.dll
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\refint\CIS341-lab4.dll
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.pdb
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\CIS341-lab4.genruntimeconfig.cache
+C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341-lab4\CIS341-lab3\obj\Debug\net6.0\ref\CIS341-lab4.dll

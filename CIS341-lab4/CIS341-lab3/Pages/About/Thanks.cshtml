@@ -1,0 +1,28 @@
+﻿@page "/Contact/Thanks"
+@using CIS341_lab3;
+@model ThanksModel
+@{
+    ViewData["Title"] = "Contact form";
+}
+
+<h1>Contact Us</h1>
+
+<!--
+    Taken from example on canvas and modify
+-->
+
+<div>
+    <form asp-action="Thanks">
+    <h1>Thanks for Your Message</h1>
+    <p>Your message was received on @Model.CurrentDateTime.</p>
+    @* <p><a asp-page="/Contact">Back to Contact Form</a></p> *@
+
+
+    <!-- Your form and other HTML content -->
+    <div><input class="btn btn-primary" type="submit" value="Return to contact"></div>
+    @* <a href="@backPageLink">Go to Thanks Page</a> *@
+
+
+
+    </form> 
+</div>
