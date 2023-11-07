@@ -1,0 +1,21 @@
+﻿@model List<Lab05.ViewModels.MessageDTO>
+
+@{
+    ViewData["Title"] = "List Contacts";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Placeholder for list contacts</p>
+
+@foreach (var messaage in Model)
+{
+    <li>
+    <p> Message ID: @messaage.MessageId - </p>
+    <p> Recipient ID: @messaage.RecipientId -</p>
+    <p> Sender ID:@messaage.SenderId - </p>
+    <p> Recipient:@messaage.Recipient - </p>
+    <p> Sender:@messaage.Sender - </p>
+    </li>
+}
+

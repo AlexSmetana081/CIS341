@@ -1,0 +1,32 @@
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+using Lab05.Models;
+
+namespace Lab05.ViewModels
+{
+    public class TrackedWorkoutDTO
+    {
+        // Gets or sets the content of the TrackedWorkoutID.
+        public int TrackedWorkoutID { get; set; }
+
+        // Gets or sets the content of the WorkoutID Id.
+        [Required(ErrorMessage = "Workout ID is required.")]
+        public int WorkoutID { get; set; }
+
+        // Gets or sets the content of the Workout.
+        public WorkoutModel Workout { get; set; } = new WorkoutModel();
+
+        // Gets or sets the content of the Date Completed.
+        [Required(ErrorMessage = "Date completed is required.")]
+        [Display(Name = "Date Completed")]
+        [DataType(DataType.Date)]
+        public DateTime DateCompleted { get; set; }
+
+        // Gets or sets the content of the Account Id.
+        [Required(ErrorMessage = "Account ID is required.")]
+        public int AccountID { get; set; }
+
+        // Gets or sets the content of the Account.
+        public AccountModel Account { get; set; } = new AccountModel();
+    }
+}

@@ -1,0 +1,20 @@
+﻿@model List<Lab05.ViewModels.ExerciseDTO>
+@{
+    ViewData["Title"] = "List Exercise";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Placeholder for list exercises</p>
+
+@foreach (var exercise in Model)
+{
+    <li>
+        Exercise ID: @exercise.ExerciseId - 
+        Name: @exercise.Name -
+        Description: @exercise.Description -
+        Length: @exercise.Length -
+        Intensity @exercise.Intensity
+    </li>
+}
+          
