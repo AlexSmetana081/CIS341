@@ -1,0 +1,60 @@
+﻿@model Lab05.ViewModels.WorkoutDTO
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create Workout</h2>
+
+<form asp-action="Create">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AuthorId"></label>
+        <input asp-for="AuthorId" class="form-control" />
+        <span asp-validation-for="AuthorId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Exercises"></label>
+        <input asp-for="Exercises" class="form-control" />
+        <span asp-validation-for="Exercises" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="Exercises">Exercises:</label>
+        <input type="text" name="Exercises[0].ExerciseName" placeholder="Exercise 1" />
+        <input type="text" name="Exercises[1].ExerciseName" placeholder="Exercise 2" />
+        <!-- Add more input fields dynamically as needed -->
+    </div>
+    <!-- You can add fields for Exercise Sets here if needed -->
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Create</button>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

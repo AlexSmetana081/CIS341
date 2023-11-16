@@ -1,0 +1,72 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<header>
+    <!-- Background image -->
+    <div class="p-5 text-center bg-image" id="dynamic-bg"
+         style="height: 600px; /* Adjust the height as needed */
+                background-size: cover;">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);
+                height: 500px; ">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white">
+                    <h1 class="mb-3">Fitness App</h1>
+                    <h4 class="mb-3">Where fitness becomes real</h4>
+                    <a class="btn btn-outline-light btn-lg btn1" href="#!" role="button">Login</a>
+                    <a class="btn btn-outline-light btn-lg btn2" href="#!" role="button">View Workouts</a>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ... rest of your code ... -->
+
+    <h1>Current Links Up and Working</h1>
+
+    <p>
+        <a asp-controller="Exercise" asp-action="Index">Exercises</a>  Create is working. Edit, Details, Delete Need Work
+    </p>
+    <p>
+        <a asp-controller="Workout" asp-action="Index">Workout</a> Create and Edit is working. Need Work Displaying exercises.
+    </p>
+    <p>
+        <a asp-controller="Accounts" asp-action="Index">Account</a> - Appears to work fully except delete.
+    </p>
+
+    <!-- ... rest of your code ... -->
+</header>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        var currentImageIndex = 0;
+        var images = [
+            '/Images/workout1.jpg',
+            '/Images/workout2.jpg',
+            '/Images/workout3.jpg',
+            '/Images/workout4.jpg',
+            '/Images/workout5.jpg'
+        ];
+
+        // Function to change the background image with fade effect
+        function changeBackgroundImageWithFade() {
+            $('#dynamic-bg').fadeOut(1000, function () {
+                // Fade out completed, change the background image
+                $('#dynamic-bg').css('background-image', 'url(' + images[currentImageIndex] + ')');
+                // Fade in the new image
+                $('#dynamic-bg').fadeIn(1000);
+                currentImageIndex = (currentImageIndex + 1) % images.length;
+            });
+        }
+
+        // Set up a timer to change the image every 5000 milliseconds (5 seconds)
+        setInterval(changeBackgroundImageWithFade, 10000);
+
+        // Initial background image setup
+        changeBackgroundImageWithFade();
+    });
+</script>

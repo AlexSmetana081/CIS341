@@ -1,0 +1,43 @@
+﻿@model Lab05.ViewModels.ExerciseDTO
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create Workout</h2>
+
+<form asp-action="Create" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <input asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AuthorName.Name"></label>
+        <input asp-for="AuthorName.Name" class="form-control" />
+        <span asp-validation-for="AuthorName.Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="WorkoutIntensity"></label>
+        <select asp-for="WorkoutIntensity" asp-items="Html.GetEnumSelectList<Intensity>()" class="form-control"></select>
+        <span asp-validation-for="WorkoutIntensity" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,38 @@
+﻿@* @model Lab05.ViewModels.RoleDTO
+
+@{
+    ViewData["Title"] = "View Identity";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Placeholder for viewing a single identity</p>
+ *@
+ 
+
+
+@model Lab05.Models.Account
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+@*     <h4>Condition</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+    </dl>
+   
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.RoleId">Edit</a> |
+    <a asp-action="Index">Back to List</a> *@
+</div>
