@@ -1,0 +1,52 @@
+﻿@model Lab05.ViewModels.MakeWorkoutDTO
+
+@{
+    ViewData["Title"] = "Make Workout";
+}
+
+<h2>{Account Name} Workout</h2>
+
+
+<h3> List of {#} Exercises </h3>
+
+<button> + </button>
+@* 
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("/Exercise/Details", 1);
+    }
+} *@
+
+
+<h4> Running </h4> 
+<br>
+<p> {Workout Set} </p>
+<br>
+
+<h4> Jogging </h4>  
+<br>
+<p> {Workout Set} </p>
+<br>
+
+<h4> Swimming </h4> 
+<br>
+<p> {Workout Set} </p>
+<br>
+
+
+<br />
+<button>Start Workout</button>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+
+
+
+@* @section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+} *@

@@ -1,0 +1,70 @@
+﻿@model Lab05.ViewModels.WorkoutDTO
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create Workout</h2>
+
+<form asp-action="Create">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AuthorId" class="control-label"></label>
+        <select class="form-select" asp-for="AuthorId" asp-items="ViewBag.AccountList">
+        </select>
+    </div>
+
+<   div class="form-group">
+        <label asp-for="Exercises" class="control-label"></label>
+        <select class="form-select" asp-for="Exercises" asp-items="ViewBag.WorkoutSetList" multiple id="exerciseSelect">
+        </select>
+    </div>
+
+<!-- Display selected exercises -->
+<div id="selectedExercises">
+    <p>Selected Exercises:</p>
+    <ul></ul>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#exerciseSelect").change(function () {
+            // Get selected exercises and display them
+            $("#exerciseSelect option:selected").each(function () {
+                $("#selectedExercises ul").append("<li>" + $(this).text() + "</li>");
+            });
+        });
+    });
+</script>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Create</button>
+    </div>
+
+
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

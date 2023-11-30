@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lab09Smetana</name>
+    </assembly>
+    <members>
+        <member name="T:Week12_WebAPI.Controllers.ExercisesController">
+            <summary>
+            API controller class for Exercises.
+            </summary>
+        </member>
+        <member name="M:Week12_WebAPI.Controllers.ExercisesController.#ctor(Lab09Smetana.Data.WorkoutContext)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="context">WorkoutContext DbContext object</param>
+            <remarks>
+            Injected automatically from services container.
+            </remarks>
+        </member>
+        <member name="M:Week12_WebAPI.Controllers.ExercisesController.GetAsync">
+            <summary>
+            Get a list with all to-do items.
+            </summary>
+            <response code="200">Returns a list with the available to-do items.</response>
+        </member>
+        <member name="M:Week12_WebAPI.Controllers.ExercisesController.GetAsync(System.Int32)">
+            <summary>
+            Get the specified to-do item.
+            </summary>
+            <response code="200">Returns the specified to-do item.</response>
+            <response code="404">Specified to-do item not found.</response>
+        </member>
+        <member name="M:Week12_WebAPI.Controllers.ExercisesController.CreateAsync(Lab09Smetana.ViewModels.ExerciseDTO)">
+            <summary>
+            Create a new to-do item.
+            </summary>
+            <response code="201">Returns the created to-do item.</response>
+            <response code="400">Indicates that a validation error occurred.</response>
+        </member>
+        <member name="M:Week12_WebAPI.Controllers.ExercisesController.DeleteAsync(System.Int32)">
+            <summary>
+            Delete the specified to-do item.
+            Note: Use of TypedResults means we do not need to specify ResponseType.
+            </summary>
+            <response code="204">Operation was successful.</response>
+            <response code="404">Specified to-do item was not found.</response>
+        </member>
+        <member name="T:Lab09Smetana.ViewModels.MessageDTO">
+            Data Transfer Object for transferring message data.
+        </member>
+        <member name="P:Lab09Smetana.ViewModels.MessageDTO.MessageId">
+            Gets or sets the unique identifier of the message.
+        </member>
+        <member name="P:Lab09Smetana.ViewModels.MessageDTO.RecipientId">
+            Gets or sets the unique identifier of the recipient account.
+        </member>
+        <member name="P:Lab09Smetana.ViewModels.MessageDTO.Recipient">
+            Gets or sets the recipient account associated with the message.
+        </member>
+        <member name="P:Lab09Smetana.ViewModels.MessageDTO.SenderId">
+            Gets or sets the unique identifier of the sender account.
+        </member>
+        <member name="P:Lab09Smetana.ViewModels.MessageDTO.Sender">
+            Gets or sets the sender account associated with the message.
+        </member>
+        <member name="P:Lab09Smetana.ViewModels.MessageDTO.Content">
+            Gets or sets the content of the message.
+        </member>
+    </members>
+</doc>

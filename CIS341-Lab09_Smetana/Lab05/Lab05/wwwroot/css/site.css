@@ -1,0 +1,58 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+
+}
+
+#sidebar-nav {
+    width: 250px;
+}
+
+.nav-link:hover {
+    background-color: #fff; /* Set background to white on hover */
+    color: black !important; /* Set the text color to red on hover */
+}
+
+.btn1 {
+    margin-right: 20px;
+}
+
+.btn2 {
+    margin-left: 20px;
+}
+
+#sidebar {
+    background-color: rebeccapurple !important;
+}
+
+#menu-toggle {
+    background-color: rebeccapurple;
+    border: none; /* Remove border for a cleaner look */
+    padding: 10px; /* Adjust the padding for size */
+}
+
+    #menu-toggle .bi {
+        font-size: 2em; /* Adjust the font size for a larger icon */
+    }
+
+.bg-purple {
+    background-color: rebeccapurple !important;
+}

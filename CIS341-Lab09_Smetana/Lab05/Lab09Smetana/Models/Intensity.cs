@@ -1,0 +1,7 @@
+﻿namespace Lab09Smetana.Models
+{
+    public enum Intensity
+    {
+        Low = 0, Medium = 1, High = 2
+    }
+}
