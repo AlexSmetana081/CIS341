@@ -1,0 +1,213 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Lab05
+build_property.RootNamespace = Lab05
+build_property.ProjectDir = C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341_Checkpoint2_Smetana\Lab05\Lab05\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\asmet\OneDrive\Desktop\Github\CIS341\CIS341_Checkpoint2_Smetana\Lab05\Lab05
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Accounts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Accounts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Accounts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Accounts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Accounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Contact/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Contact/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Contact/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Contact/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Contact/Trainer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxUcmFpbmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Exercise/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpc2VcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Exercise/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpc2VcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Exercise/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpc2VcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Exercise/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpc2VcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Exercise/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpc2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Identity/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Identity/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Identity/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Identity/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Identity/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Identity/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWRlbnRpdHlcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Tracking/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhY2tpbmdcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Tracking/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhY2tpbmdcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Tracking/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhY2tpbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/WorkoutSet/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya291dFNldFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/WorkoutSet/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya291dFNldFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/WorkoutSet/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya291dFNldFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/WorkoutSet/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya291dFNldFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/WorkoutSet/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya291dFNldFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Workout/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya291dFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Workout/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya291dFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Workout/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya291dFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Workout/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya291dFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Workout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya291dFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Workout/MakeWorkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya291dFxNYWtlV29ya291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asmet/OneDrive/Desktop/Github/CIS341/CIS341_Checkpoint2_Smetana/Lab05/Lab05/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-5s6999bcwh

@@ -1,0 +1,84 @@
+﻿@model IEnumerable<Lab05.Models.TrackedWorkout>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<style>
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    td {
+        max-width: 150px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    a {
+        color: #007bff; 
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+</style>
+
+<div class="container mt-5">
+    <h2>@ViewData["Title"]</h2>
+
+    <p>
+        <a class="btn btn-primary" asp-action="Create">Create New</a>
+    </p>
+
+    <p>@User.Identity.Name</p>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.TrackedWorkoutId)</th>
+                    <th>@Html.DisplayNameFor(model => model.Completed)</th>
+                    <th>@Html.DisplayNameFor(model => model.Account.Name)</th>
+                    <th>@Html.DisplayNameFor(model => model.Workout)</th>
+                    <th>@Html.DisplayNameFor(model => model.Workout.WorkoutSets)</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.TrackedWorkoutId)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Completed)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Account.Name)</td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Workout.Name)
+                            @Html.DisplayFor(modelItem => item.Workout.Description)
+                        </td>
+                        <td>
+                            @foreach (var workoutSet in item.Workout.WorkoutSets)
+                            {
+                                <dd>@Html.DisplayFor(modelItem => workoutSet.Exercise.Name)</dd>
+                                //<p>@Html.DisplayFor(modelItem => workoutSet.Workout.Name)</p>
+                                
+                            }
+                        </td>
+                        <td>
+                            <a class="btn btn-info" asp-action="Edit" asp-route-id="@item.TrackedWorkoutId">Edit</a>
+                            <a class="btn btn-success" asp-action="Details" asp-route-id="@item.TrackedWorkoutId">Details</a>
+                            <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.TrackedWorkoutId">Delete</a>
+                            
+                             <br>
+                            <a asp-action="Delete" asp-route-id="@item.TrackedWorkoutId">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
