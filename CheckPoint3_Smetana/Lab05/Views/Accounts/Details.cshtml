@@ -1,0 +1,43 @@
+﻿@model Lab05.ViewModels.UserAccountDTO
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Account</h4>
+    <hr />
+    <dl class="row">
+
+        <!-- Name -->
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <!-- Role -->
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+    </dl>
+
+    <dl class="row">
+
+        <!-- Name -->
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Role)
+        </dt>
+
+        <!-- Role -->
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Role)
+        </dd>
+    </dl>
+</div>
+
+<!-- Link Back to Index-->
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.AccountId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,55 @@
+﻿@model Lab05.ViewModels.ExerciseDTO
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Exercise</h4>
+<hr />
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="ExerciseId" />
+
+    <!-- Exercise Name -->
+    <div class="form-group">
+        <label asp-for="Name">Name:</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <!-- Exercise Description -->
+    <div class="form-group">
+        <label asp-for="Description">Description:</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <!-- Exercise Author Name -->
+    <div class="form-group">
+        <label asp-for="AuthorNameId" class="control-label"></label>
+        <select class="form-select" asp-for="AuthorNameId" asp-items="ViewBag.AccountList">
+        </select>
+    </div>
+
+    <!-- Exercise Intensity-->
+    <div class="form-group">
+        <label asp-for="WorkoutIntensity">Workout Intensity:</label>
+        <input asp-for="WorkoutIntensity" class="form-control" />
+        <span asp-validation-for="WorkoutIntensity" class="text-danger"></span>
+    </div>
+
+    <!-- Submit Button-->
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Save</button>
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</form>
+
+<!-- Section for Scripts -->
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

@@ -1,0 +1,72 @@
+﻿@model Lab05.Models.Exercise
+
+@{
+    ViewData["Title"] = "View Exercise";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <h4>Account</h4>
+    <hr />
+
+    <!-- Titles-->
+    <dl class="row">
+        <!-- Name Title -->
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        
+        <!-- Exercise Name -->
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+    </dl>
+
+
+    <dl class="row">
+        <!-- Description Title -->
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <!-- Exercise Description -->
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+    </dl>
+
+
+    <dl class="row">
+        <!-- Workout Intensity Title-->
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.WorkoutIntensity)
+        </dt>
+
+        <!-- Workout Intensity-->
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.WorkoutIntensity)
+        </dd>
+    </dl>
+
+    <dl class="row">
+        <!-- Author Name Title -->
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.AuthorName)
+        </dt>
+        <!-- Author Name -->
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AuthorName.Name)
+        </dd>
+    </dl>
+
+    <!-- Potential Images in future updates. Not in scope for project -->
+    <dl class="row">
+        <dt class="col-sm-2">
+            Image:
+        </dt>
+        <dd class="col-sm-10">
+            {Placeholder for Image to for displaying form}
+        </dd>
+    </dl>
+
+</div>

@@ -1,0 +1,97 @@
+﻿@model IEnumerable<Lab05.Models.TrackedWorkout>
+@inject IAuthorizationService AuthorizationService
+
+@{
+    ViewData["Title"] = "Workout Tracking";
+}
+
+<!-- Your existing code for styles and external dependencies goes here -->
+
+<div class="container mt-5">
+    <h2>@ViewData["Title"]</h2>
+
+    <div class="card mt-3">
+        <div class="card-body">
+            <!-- Add New Workout Button -->
+            <p>
+                <a class="btn btn-primary" asp-action="Create">Add New Workout</a>
+            </p>
+
+            <div class="table-responsive">
+                <!-- Grouping workouts by date -->
+                @foreach (var groupedWorkouts in Model
+                .Where(x => x.Account.Name == User.Identity.Name)
+                .GroupBy(x => x.Completed.Date))
+                {
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <!-- Displaying the date as the card title -->
+                            <h4 class="card-title">
+                                @groupedWorkouts.Key.ToString("dddd, MMMM d")
+                            </h4>
+                        </div>
+                        <div class="card-body">
+                            <table class="table table-striped">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th>Time</th>
+                                        <th>Workout</th>
+                                        <th>Sets</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Loop through workouts -->
+                                    @foreach (var item in groupedWorkouts)
+                                    {
+                                        <tr>
+                                            <!-- Displaying completed time -->
+                                            <td>@item.Completed.ToString("hh:mm tt")</td>
+                                            <td>
+                                                <!-- Displaying workout name and description -->
+                                                <b>@Html.DisplayFor(modelItem => item.Workout.Name)</b><br />
+                                                @Html.DisplayFor(modelItem => item.Workout.Description)
+                                            </td>
+                                            <td>
+                                                <!-- Looping through workout sets -->
+                                                @foreach (var workoutSet in item.Workout.WorkoutSets)
+                                                {
+                                    <dd>@Html.DisplayFor(modelItem => workoutSet.Exercise.Name)</dd>
+                                                }
+                                </td>
+                                <td>
+                                    <div class="btn-group" role="group" aria-label="Actions">
+                                        <!-- Edit button (Trainer and Admin ONLY) -->
+                                                    @if ((await AuthorizationService.AuthorizeAsync(User, "RequireAdministratorRole")).Succeeded ||
+                                                   User.IsInRole("Trainer") ||
+                                                   User.IsInRole("Admin"))
+                                                    {
+                                            <a class="btn btn-info" asp-action="Edit" asp-route-id="@item.TrackedWorkoutId">
+                                                <i class="fas fa-edit"></i> Edit
+                                            </a>
+                                            <a class="btn btn-info" asp-action="Delete" asp-route-id="@item.TrackedWorkoutId">
+                                                <i class="fas fa-edit"></i> Delete
+                                            </a>
+                                                    }
+
+                                        <!-- History button for tracking the workout history -->
+                                        <a class="btn btn-success" asp-controller="Tracking" asp-action="Workout" asp-route-id="@item.WorkoutId">History</a>
+                                    </div>
+                                </td>
+                                </tr>
+                                    }
+                            </tbody>
+                            </table>
+                        </div>
+                        <div class="card-footer">
+                            <!-- Displaying the current time in the footer -->
+                            <p class="text-muted">
+                                Time: @DateTime.Now.ToString("hh:mm tt")
+                            </p>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

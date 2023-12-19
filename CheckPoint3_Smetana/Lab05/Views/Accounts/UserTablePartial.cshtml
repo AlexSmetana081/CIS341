@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Lab05.ViewModels.UserAccountDTO>
+@inject IAuthorizationService AuthorizationService
+
+<table class="table">
+    <thead>
+        <tr>
+
+            <!-- Name -->
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+
+            <!-- Role -->
+            <th>
+                @Html.DisplayNameFor(model => model.Role)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <!-- Loop through Account DTO-->
+        @foreach (var item in Model)
+        {
+            <tr>
+                <!-- Name -->
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+
+                <!-- Roles -->
+                <td>
+                    @Html.DisplayFor(modelItem => item.Role)
+                </td>
+
+                <!-- Edit and Delete (Trainer & Admin ONLY) -->
+                <!-- Details (All ROLES) -->
+                <td>
+                    @if ((await AuthorizationService.AuthorizeAsync(User, "RequireAdministratorRole")).Succeeded ||
+                   User.IsInRole("Trainer") ||
+                   User.IsInRole("Admin"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.AccountId">Edit</a>
+                    }
+                    <a asp-action="Details" asp-route-id="@item.AccountId">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

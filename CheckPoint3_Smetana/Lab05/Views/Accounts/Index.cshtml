@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Lab05.ViewModels.UserAccountDTO>
+@inject IAuthorizationService AuthorizationService
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<!-- Style for page-->
+<style>
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    td {
+        max-width: 150px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+</style>
+
+<h1>Index</h1>
+
+<!-- Create New Accounts (Trainer & Admin ONLY) -->
+@if ((await AuthorizationService.AuthorizeAsync(User, "RequireAdministratorRole")).Succeeded ||
+     User.IsInRole("Trainer") ||
+     User.IsInRole("Admin"))
+{
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+
+}
+
+<!-- Partial View Subscribers -->
+<h2> Subscribers </h2>
+@Html.Partial("UserTablePartial", Model.Where(a => a.Role.Equals("Subscriber")))
+
+<!-- Partial View Trainers -->
+<h2> Trainers </h2>
+@Html.Partial("UserTablePartial", Model.Where(a => a.Role.Equals("Trainer")))
+

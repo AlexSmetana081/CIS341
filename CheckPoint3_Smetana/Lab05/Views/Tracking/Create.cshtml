@@ -1,0 +1,29 @@
+﻿@model Lab05.ViewModels.TrackedWorkoutDTO
+
+<h2>Create</h2>
+
+<form asp-action="Create" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <!-- Account -->
+    <div class="form-group">
+        <label asp-for="AccountId" class="control-label">Account</label>
+        <select asp-for="AccountId" asp-items="@ViewBag.AccountList" class="form-control"></select>
+        <span asp-validation-for="AccountId" class="text-danger"></span>
+    </div>
+
+    <!-- Workout -->
+    <div class="form-group">
+        <label asp-for="WorkoutId" class="control-label">Workout</label>
+        <select asp-for="WorkoutId" asp-items="@ViewBag.WorkoutList" class="form-control"></select>
+        <span asp-validation-for="WorkoutId" class="text-danger"></span>
+    </div>
+
+    <!-- Create Button-->
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</form>
+
+
